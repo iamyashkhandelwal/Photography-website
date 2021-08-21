@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* height: 100%; */
+    /* background-color:gainsboro */
+}
+
+.first-page{
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1554080353-321e452ccf19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background: url('https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    /* background: url('https://images.unsplash.com/photo-1597378080785-fc16687451ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* position: fixed; */
+    font-size: 18px;
+    color: wheat;
+}
+
+.navbar .logo{
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.navbar .pages{
+    margin-right: 80px;
+}
+
+.navbar .lists .lists-items{
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px;
+}
+
+.second-page{
+    width: 100%;
+    height: 100%;
+    /* background-color: #f7f7f7; */
+    background-color: white;
+    text-align: center;
+}
+
+.second-page .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 120px 50px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.second-page .container .image img{
+    width: 400px;
+    height: 600px;
+}
+
+.second-page .container .text{
+    padding: 30px 70px;
+    width: 60%;
+}
+
+.second-page .container .text .text-heading{
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    /* font-family: 'Klee', cursive; */
+}
+
+.second-page .container .text p{
+    font-size: 17px;
+}
+
+.second-page .container .text .read-more{
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* outline: none; */
+    margin-top: 20px;
+    border: #f81c1c 1px solid;
+    cursor: pointer;
+}
+
+.second-page .container .text .read-more:hover{
+    color: white;
+    font-weight: 500;
+    background-color: #f81c1c;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+
+.services{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.services .container{
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+}
+
+.services .container header{
+    text-align: center;
+}
+
+.services .container header h3{
+    color: lightslategrey;
+}
+
+.services .container header h1{
+    font-size: 40px;
+}
+
+.services .container .offers{
+    margin-top: 20px;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .container .offers .box{
+    width: 300px;
+    /* height: 220px; */
+    /* border: 1px solid black; */
+    margin: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.services .container .offers .box:hover{
+    transition-duration: 0.7s;
+    box-shadow: lightgray 0px 0px 35px;
+    transform: scale(1.04);
+}
+
+.services .container .offers .box .fa-tshirt, .fa-leaf, .fa-calendar-check, .fa-images, .fa-play, .fa-camera-retro{
+    /* border: #f81c1c 2px solid; */
+    /* outline: #f81c1c 2px solid; */
+    color: #f81c1c;
+    font-size: 23px;
+}
+
+.services .container .offers .box p{
+    margin-top: 10px;
+    color: lightslategrey;
+}
+
+.services .container .offers .box .event-logo{
+    height: 30px;
+    /* border-color: maroon; */
+    /* background-color: #ffffff; */
+    /* display: inline-block; */
+    
+}
+
+.services .container .offers .box h3{
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.porfolio{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.portfolio .container{
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+}
+
+.portfolio .container header{
+    text-align: center;
+}
+
+.portfolio .container header h3{
+    color: lightslategrey;
+}
+
+.portfolio .container header h1{
+    font-size: 40px;
+}
+
+.pricing{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.pricing .container{
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+}
+
+.pricing .container header{
+    text-align: center;
+}
+
+.pricing .container header h3{
+    color: lightslategrey;
+}
+
+.pricing .container header h1{
+    font-size: 40px;
+}
+
+.pricing .container .pricing-plans{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pricing .container .pricing-plans .plan-box{
+    /* border: black 1px solid; */
+    width: 300px;
+    /* height: 600px; */
+    height: 100%;
+    background-color: #ffffff;
+    padding: 40px 15px;
+    margin: 8px;
+}
+
+.pricing .container .pricing-plans .plan-box:hover{
+    box-shadow: 0px 0px 20px lightslategrey;
+    transition-duration: 1s;
+    transform: scale(1.05);
+}
+
+.pricing .container .pricing-plans .plan-box h4{
+    color: lightgrey;
+    font-weight: 100;
+}
+
+.pricing .container .pricing-plans .plan-box h2{
+    margin: 25px 0px;
+    font-size: 40px;
+}
+
+.pricing .container .pricing-plans .plan-box .benefits{
+    background-color: #f7f7f7;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.pricing .container .pricing-plans .plan-box .benefits ul li{
+    list-style: none;
+    margin: 6px 0px;
+}
+
+.pricing .container .pricing-plans .plan-box .benefits .book-now{
+    background-color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* outline: none; */
+    margin-top: 20px;
+    border: #f81c1c 1px solid;
+    cursor: pointer;
+}
+
+.pricing .container .pricing-plans .plan-box .benefits .book-now:hover{
+    color: white;
+    font-weight: 500;
+    background-color: #f81c1c;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+footer{
+    padding: 150px;
+    background-color: #04091e;
+    color: white;
+}
+
+footer .container{
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .about-us{
+    width: 40%;
+}
+
+footer .container .about-us p{
+    color: lightslategrey;
+}
+
+footer .container .follow-us p{
+    color: lightslategrey;
+}
+
+footer .container .follow-us .social-media{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .follow-us .social-media .fa-facebook-f , .fa-instagram , .fa-linkedin-in, .fa-twitter{
+    cursor: pointer;
+}
+
+footer .container .follow-us .social-media .fa-facebook-f:hover , .fa-instagram:hover , .fa-linkedin-in:hover, .fa-twitter:hover{
+    color: #f81c1c;
+    transition-duration: 0.7s;
+}
+
+footer .copy-right{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
