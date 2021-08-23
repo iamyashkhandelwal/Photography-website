@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: white;
     font-weight: 500;
     background-color: #f81c1c;
-    border: none;
+    border-color: #f81c1c;
     transition-duration: 0.5s;
 }
 
@@ -198,8 +198,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 .portfolio .container{
     width: 80%;
-    padding: 100px;
+    padding: 40px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .portfolio .container header{
@@ -212,6 +213,58 @@ h1,h2,h3,h4,h5,h6,p{
 
 .portfolio .container header h1{
     font-size: 40px;
+}
+
+.portfolio .container .portfolio-examples{
+    margin-top: 120px;
+}
+
+.portfolio .container .portfolio-examples .projects{
+    display: inline-block;
+    position: relative;
+
+    border-radius: 10px;
+    margin: 4px;
+    cursor: pointer;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* .portfolio .container .portfolio-examples .projects .album{
+    color: gray;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+} */
+
+.portfolio .container .portfolio-examples .projects .description{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    background: rgba(205, 205, 205, 0.5);
+}
+
+.portfolio .container .view-more{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    border: #f81c1c 1px solid;
+    cursor: pointer;
+}
+
+.portfolio .container .view-more:hover{
+    color: white;
+    font-weight: 500;
+    background-color: #f81c1c;
+    border-color: #f81c1c;
+    transition-duration: 0.5s;
 }
 
 .pricing{
@@ -298,7 +351,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: white;
     font-weight: 500;
     background-color: #f81c1c;
-    border: none;
+    border-color: #f81c1c;
     transition-duration: 0.5s;
 }
 
