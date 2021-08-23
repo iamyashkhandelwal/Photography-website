@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Photographers</title>
 
+    <!-- AOS animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-    <!-- Flaticon -->
-    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
-
-    
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./stylesheet/index.css">
 </head>
 <body>
@@ -21,26 +23,28 @@
 – Destin Sparks -->
 
     <div class="main-container">
-       <section class="first-page"> 
+       <section id="home-page" class="first-page"> 
             <nav class="navbar">
                 <div class="logo">Your Company Logo</div>
                 <div class="pages">
                     <ul class="lists">
-                        <a href="#"><li class="lists-items">Home</li></a>
-                        <a href="#"><li class="lists-items">About</li></a>
-                        <a href="#"><li class="lists-items">Projects</li></a>
-                        <a href="#"><li class="lists-items">Contact Us</li></a>
+                        <a href="#home-page"><li class="lists-items">Home</li></a>
+                        <a href="#about-page"><li class="lists-items">About</li></a>
+                        <a href="#services-page"><li class="lists-items">Services</li></a>
+                        <a href="#projects-page"><li class="lists-items">Projects</li></a>
+                        <a href="#contactUs-page"><li class="lists-items">Contact Us</li></a>
                     </ul>
                 </div>
+                <i class="fas fa-align-right"></i>
             </nav>
         </section>
 
-        <section class="second-page">
+        <section id="about-page" class="second-page">
             <div class="container">
-                <div class="image">
+                <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="12000" data-aos-easing="ease-in-out" class="image">
                     <img src="https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?cs=srgb&dl=pexels-kaique-rocha-598917.jpg&fm=jpg" alt="">
                 </div>
-                <div class="text">
+                <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="12000" class="text">
                     <h1 class="text-heading">Who we are?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil enim quia? Accusantium laborum magni voluptatibus vitae distinctio facilis, non quasi ad quaerat molestias, unde beatae magnam ex ea ipsam.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil enim quia? Accusantium laborum magni voluptatibus vitae distinctio facilis, non quasi ad quaerat molestias, unde beatae magnam ex ea ipsam.</p>
@@ -53,7 +57,7 @@
             
         </section>
 
-        <section class="services">
+        <section id="services-page" class="services">
             <div class="container">
                 <header>
                     <h3>Our Services</h3>
@@ -61,34 +65,40 @@
                 </header>
 
                 <div class="offers">
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <!-- <img class="event-logo" src="./icons/fashion.png"> -->
                         <!-- <img class="event-logo" src="./icons/tshirt-solid.png"> -->
                         <i class="fas fa-tshirt"></i>
                         <h3>Fashion Photography</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
                     </div>
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <i class="fas fa-leaf"></i>
                         <h3>Nature Photography</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
                     </div>
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <i class="far fa-calendar-check"></i>
                         <h3>Event Coverage</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
                     </div>
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <i class="far fa-images"></i>
                         <h3>Property Tours</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
                     </div>
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <i class="fas fa-play"></i>
                         <h3>Multimedia Services</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
                     </div>
-                    <div class="box">
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000" class="box">
                         <i class="fas fa-camera-retro"></i>
                         <h3>Pre-wedding Shoot</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti beatae nam alias possimus officiis ut.</p>
@@ -97,7 +107,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section id="projects-page" class="portfolio">
             <div class="container">
                 <header>
                     <h3>Our Portfolio</h3>
@@ -105,7 +115,8 @@
                 </header>
 
                 <div class="portfolio-examples">
-                    <div class="projects">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000"
+                    data-aos-delay="0" class="projects">
                         <img src="https://images.unsplash.com/photo-1588837538944-e4edf1e951e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="image4">
 
                         <div class="description">
@@ -114,7 +125,7 @@
                         </div>
                     </div>
 
-                    <div class="projects">
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="500" class="projects">
                         <img src="https://images.unsplash.com/photo-1629368711435-808eedb13889?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="image1">
 
                         <div class="description">
@@ -123,7 +134,7 @@
                         </div>
                     </div>    
 
-                    <div class="projects">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="500" class="projects">
                         <img src="https://images.unsplash.com/photo-1629410240133-0c757773762a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="image2">
 
                         <div class="description">
@@ -132,7 +143,7 @@
                         </div>
                     </div>    
 
-                    <div class="projects">
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="0" class="projects">
                         <img src="https://images.unsplash.com/photo-1627327719278-380ae800a3ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="image3">
 
                         <div class="description">
@@ -154,7 +165,7 @@
                 </header>
 
                 <div class="pricing-plans">
-                    <div class="plan-box">
+                    <div data-aos="fade" data-aos-duration="1000" data-aos-delay="0" class="plan-box">
                         <h1 class="plan-name">Wedding</h1>
                         <h4>one line description</h4>
                         <h2>9999/-</h2>
@@ -177,7 +188,7 @@
                             <button class="book-now">Book Now</button>
                         </div>
                     </div>
-                    <div class="plan-box">
+                    <div data-aos="fade" data-aos-duration="1000" data-aos-delay="200" class="plan-box">
                         <h1 class="plan-name">Studio</h1>
                         <h4>one line description</h4>
                         <h2>2999/-</h2>
@@ -199,7 +210,7 @@
                             <button class="book-now">Book Now</button>
                         </div>
                     </div>
-                    <div class="plan-box">
+                    <div data-aos="fade" data-aos-duration="1000" data-aos-delay="400" class="plan-box">
                         <h1 class="plan-name">Fashion</h1>
                         <h4>one line description</h4>
                         <h2>4999/-</h2>
@@ -225,7 +236,7 @@
             </div>
         </section>
 
-        <footer>
+        <footer id="contactUs-page">
             <div class="container">
                 <div class="about-us">
                     <h2>About Us</h2>
@@ -254,6 +265,13 @@
            
         </footer>
     </div>
+
+    <script src="./javascript/index.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <!-- <script>
+      AOS.init();
+    </script> -->
+  
     
 </body>
 </html>
