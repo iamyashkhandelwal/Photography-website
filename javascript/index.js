@@ -26,3 +26,16 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+
+document.getElementById("toggle-button").addEventListener('click', ()=>{
+    console.log('clicked');
+    if(document.getElementById("responsive-navbar").style.display === 'none'){
+        document.getElementById("responsive-navbar").style.display = 'block';
+        document.getElementById("navbar").style.backgroundColor = 'transparent';
+    }
+    else{
+        document.getElementById("responsive-navbar").style.display = 'none';
+        document.getElementById("navbar").style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+    }
+})

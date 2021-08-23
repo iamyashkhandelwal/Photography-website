@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS animate -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Photographers</title>
 
@@ -23,20 +24,33 @@
 – Destin Sparks -->
 
     <div class="main-container">
-       <section id="home-page" class="first-page"> 
-            <nav class="navbar">
-                <div class="logo">Your Company Logo</div>
-                <div class="pages">
-                    <ul class="lists">
-                        <a href="#home-page"><li class="lists-items">Home</li></a>
-                        <a href="#about-page"><li class="lists-items">About</li></a>
-                        <a href="#services-page"><li class="lists-items">Services</li></a>
-                        <a href="#projects-page"><li class="lists-items">Projects</li></a>
-                        <a href="#contactUs-page"><li class="lists-items">Contact Us</li></a>
+       <section id="home-page" class="first-page">
+           <div class="nav"> 
+                <nav id="navbar" class="navbar">
+                    <div class="logo">Your Company Logo</div>
+                    <div class="pages">
+                        <ul class="lists">
+                            <a href="#home-page"><li class="lists-items">Home</li></a>
+                            <a href="#about-page"><li class="lists-items">About</li></a>
+                            <a href="#services-page"><li class="lists-items">Services</li></a>
+                            <a href="#projects-page"><li class="lists-items">Projects</li></a>
+                            <a href="#contactUs-page"><li class="lists-items">Contact Us</li></a>
+                        </ul>
+                    </div>
+                    <a><i id="toggle-button" class="fas fa-align-right"></i></a>
+                    
+                </nav>
+                <div id="responsive-navbar" class="responsive-navbar">
+                    <ul class="responsive-list">
+                        <a href="#home-page"><li class="responsive-list-items">Home</li></a>
+                        <a href="#about-page"><li class="responsive-list-items">About</li></a>
+                        <a href="#services-page"><li class="responsive-list-items">Services</li></a>
+                        <a href="#projects-page"><li class="responsive-list-items">Projects</li></a>
+                        <a href="#contactUs-page"><li class="responsive-list-items">Contact Us</li></a>
                     </ul>
                 </div>
-                <i class="fas fa-align-right"></i>
-            </nav>
+            </div>
+            
         </section>
 
         <section id="about-page" class="second-page">
