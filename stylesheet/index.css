@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Poppins:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -31,8 +36,29 @@ h1,h2,h3,h4,h5,h6,p{
     background: url('https://images.unsplash.com/photo-1554080353-321e452ccf19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
     background: url('https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     /* background: url('https://images.unsplash.com/photo-1597378080785-fc16687451ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80'); */
+
+    /* background: url('https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
+
+    /* background: url('https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+
+    /* background: url('https://images.unsplash.com/photo-1554136545-2f288e8cf4bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80'); */
+
+    background: url('../icons/bg1.png');
+
     background-size: cover;
     background-attachment: fixed;
+}
+
+.first-page .name{
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'WindSong', cursive;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-size: 45px;
+    letter-spacing: 1px;
+    transform: translate(-50%, -50%);
+    color: darkred;
 }
 
 .first-page .nav{
@@ -44,7 +70,6 @@ h1,h2,h3,h4,h5,h6,p{
     position: relative;
     padding-top: 40px;
     display: none;
-    /* top: 45px; */
     text-align: center;
     /* z-index: 1; */
 }
@@ -282,7 +307,6 @@ h1,h2,h3,h4,h5,h6,p{
 .portfolio .container .portfolio-examples .projects{
     display: inline-block;
     position: relative;
-
     border-radius: 10px;
     margin: 4px;
     cursor: pointer;
@@ -472,4 +496,8 @@ footer .copy-right{
         display: block;
         cursor: pointer;
     }
+/* 
+    .porfolio .container .portfolio-examples .projects{
+        width: 100%;
+    } */
 } 
